@@ -12,3 +12,14 @@ categories = ["gui", "wasm", "web-programming"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [dependencies]
 yew = "0.19"
+strum = "0.24"
+strum_macros = "0.24"
+serde = "1"
+serde_derive = "1"
+gloo = "0.8"
+
+[dependencies.web-sys]
+version = "0.3"
+features = [
+	"HtmlInputElement",
+]
